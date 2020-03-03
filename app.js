@@ -1,4 +1,9 @@
 var app = {
+    // Dados do Aplicativo
+    copyright: {
+        appname: 'StartPeças'
+    },
+    // Páginas
     pages: {
         index: {
             filename: 'index.html',
