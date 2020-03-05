@@ -162,23 +162,30 @@ var app = {
                     // Linha 22
                     el23 = document.createElement("a");
                     el23.setAttribute("class","carousel-control-prev").setAttribute("href","#"+id).setAttribute("role","button").setAttribute("data-slide","prev");
+                        // Linha 23
                         el24 = document.createElement("span");
                         el24.setAttribute("class","carousel-control-prev-icon").setAttribute("aria-hidden","true");
                         el23.appendChild(el24);
+                        // Linha 24
                         el25 = document.createElement("span");
                         el25.setAttribute("class","sr-only").innerHTML = "Previous";
                         el23.appendChild(el25);
+                    // Linha 25
                     el1.appendChild(el23);
                     el26 = document.createElement("a");
                     el26.setAttribute("class","carousel-control-next").setAttribute("href","#"+id).setAttribute("role","button").setAttribute("data-slide","next");
+                        // Linha 26
                         el27 = document.createElement("span");
                         el27.setAttribute("class","carousel-control-prnextev-icon").setAttribute("aria-hidden","true");
                         el26.appendChild(el27);
+                        // Linha 27
                         el28 = document.createElement("span");
                         el28.setAttribute("class","sr-only").innerHTML = "Next";
                         el26.appendChild(el28);
                     el1.appendChild(el26);
+                // JQuery Appending to Page
                 $(app.pages.index.sections.section1.outer_id).append(el1);
+            // TODO: ReImplement using only HTML appending, without DOMCreation
         }
     }
 }
