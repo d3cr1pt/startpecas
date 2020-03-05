@@ -9,7 +9,7 @@
     <script src="vendor/popper.min.js"></script>
     <script src="vendor/bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
 </head>
-  <body>
+  <body class="bg-light">
     <header>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
           <!-- Navbar icon -->
@@ -167,5 +167,27 @@
       </div>    
     </section>
     <!-- End of Section 1: Carousel (New Edition)  -->
+    <!-- Section 2: Urgent Contact Form (will be shown on Dashboard) -->
+    <form class="container" style="box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4); background: #efefef; width: 60%; margin-top: 10px; border: 2px solid rgba(250,250,250,0.4);  margin-bottom: 10px; padding-bottom: 5px; padding-top: 2.5px">
+      <div style="text-align: center;">
+        <p style="font-weight: bolder; font-size: larger;">Contato para Emergência</p>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="text-muted">Nome:*</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1" class="text-muted">Telefone:*</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group">
+        <label for="exampleTextArea" class="text-muted">Mensagem:*</label>
+        <textarea class="form-control" name="message" id="message" cols="30" rows="3"></textarea>
+      </div>
+      <div style="text-align: center">
+        <button type="submit" class="btn btn-danger">Enviar</button>
+      </div>
+    </form>
+    <!-- End of Section 2: Urgent Contact Form -->
   </body>
 </html>
