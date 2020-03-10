@@ -6523,9 +6523,7 @@ a.close.disabled {
   left: 0;
 }
 
-.carousel-control-next {
-  right: 0;
-}
+.carousel-control-next {right: 0;}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
