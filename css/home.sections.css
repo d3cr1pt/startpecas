@@ -1,0 +1,32 @@
+.section-title-md {
+    font-size: 20px;
+    line-height: 1.1;
+    font-family: 'Open Sans Condensed';
+    text-transform: uppercase;
+    color: #525252;
+    font-weight: 700;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    font: 20px 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-top: 70px;
+}
+.nav-pills .nav-link.active {
+    background: rgba(200,200,200,0.2);
+    color: black;
+    /* border-bottom: 2px solid black; */
+}
+.nav-pills .nav-link {
+    color:                            rgb(85,85,85);
+    border-top-left-radius:             0;
+    border-top-right-radius:            0;
+    border-bottom-left-radius:          0;
+    border-bottom-right-radius:         0;
+    border-bottom:                      1px solid lightgrey;
+    border-top:                         1px solid lightgrey;
+    padding-top:                        15px;
+    padding-bottom:                     15px;
+    text-transform:                     uppercase;
+    border-left:                        2px solid grey;
+}
