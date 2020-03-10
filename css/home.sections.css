@@ -30,3 +30,115 @@
     text-transform:                     uppercase;
     border-left:                        2px solid grey;
 }
+
+
+.footer-area {
+    background-color: 
+    #ee2050;
+    padding: 28px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-copyright p {
+    color: 
+    #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer-copyright a {
+    color: 
+    #fff;
+    font-weight: 600;
+}
+
+.top-social ul li, .footer-social ul li, .about-social ul li, .shop-details-social ul li {
+    display: inline-block;
+}
+
+.top-social ul li a, .footer-social ul li a, .shop-details-social ul li a {
+    padding: 0 15px;
+    font-size: 18px;
+}
+.footer-social ul li a:hover, .about-social ul li a:hover {
+    color: 
+    #24273e;
+}
+
+.footer-top-area {
+    margin-top: 50px;
+    background-color: 
+    #24273e;
+    padding: 80px 0;
+}
+
+.footer-address p, .footer-contact-info p, .footer-top-newsletter p {
+    color: 
+    #fff;
+}
+
+.footer-top-title h3 {
+    color: 
+    #fff;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.footer-top-menu ul li a {
+    color: 
+    #fff;
+    display: block;
+    padding: 3px 0;
+}
+.footer-logo img{
+    max-width: 100px;
+    margin: 10px;
+}
+img {
+    max-width: 100%;
+}
+
+.footer-top-newsletter .input-box input {
+    border: 0 none;
+    color: 
+    #909090;
+    font-size: 12px;
+    height: 38px;
+    padding: 2px 15px 0;
+    width: 100%;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+.footer-top-newsletter .submit-button {
+    background-color: 
+#ee2050;
+border-radius: 5px;
+color:
+    #fff;
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 7px 15px;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+a {
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+}
