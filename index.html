@@ -34,8 +34,9 @@
     </style>
 </head>
   <body class="bg-light">
+    <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-danger">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-dark">
           <!-- Navbar icon -->
             <a class="navbar-brand" href="#"><img src="img/start.png" alt="StartPeças" style="width: 50px;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +71,8 @@
             </div>
           </nav>
     </header>
-    <main role="main" class="container-fluid" style="margin-top: 110px; padding-bottom: 400px;">
+    <!-- Main content -->
+    <main role="main" style="margin-top: 110px; padding-bottom: 400px;">
       <!-- Section 1: Carousel (New Edition)  -->
       <section id="section1">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -180,7 +182,7 @@
       </section>
       <!-- End of Section 1: Carousel (New Edition)  -->
       <!-- Section 2: About Form  -->
-      <div class="row">
+      <section id="section2" class="row container-fluid">
         <div class="col-6" style="padding-top: 10px; padding-bottom: 20px;">
           <div class="section-heading" style="font-family: 'Lato', sans-serif; font-weight: 900 !important; font-style: italic;">                            
             <h2 style="font-weight: 900 !important; ">Sobre <span style="color: #ee2050;font-weight: 900 !important; "> AutoStart</span></h2>                       
@@ -196,7 +198,7 @@
         <div class="col-6" style="padding-top: 10px; padding-bottom: 20px;">
           <img src="./img/section2.png" style="width: 100%; max-width: 400px; margin-left: auto;">
         </div>
-      </div>
+      </section>
       <!-- End of Section 2: About Form -->
       <!-- Section 3: Best Services -->
       <div class="service-area section-padding overlay" style="background-color: #24273e; color: #ffffff; padding-bottom: 20px; margin-bottom: 10px;">            
@@ -278,7 +280,7 @@
       </div>
       <!-- End of Section 3: Best Services -->
       <!-- Section 4: AutoZone Store -->
-      <div id="best" class="section section-md best novi-background bg-cover">
+      <div id="best" class="section section-md best novi-background bg-cover" style="display: none;">
         <div class="container">
           <div class="section-title-md">
             BEST OFFERS FROM AUTOCLUB
@@ -321,6 +323,7 @@
       </div>
       <!-- End of Section 4: AutoZone Store -->
       <!-- Section 5: Lastests Blogs -->
+      <!-- Import coding from Wordpress -->
       <!-- End of Section 5: Lastests Blogs -->
     </main>
       <!-- Footer Section -->
@@ -413,6 +416,7 @@
               </div>            
           </div>        
       </div>
+      <!-- Footer Payment & Copyright -->
       <div class="footer-area">            
         <div class="container">                
             <div class="row">                    
@@ -439,7 +443,8 @@
                 <div class="col-md-4 col-sm-4 text-center">                        
                     <!-- payment method start -->                        
                     <div class="footer-payment-method">                            
-                        <img src="img/payment-method.png" alt="">                        
+                        <img src="img/payment-method.png" alt="">   
+                        <i class="fab fa-cc-visa"></i>
                     </div>                        
                     <!-- payment method end -->                    
                 </div>                
